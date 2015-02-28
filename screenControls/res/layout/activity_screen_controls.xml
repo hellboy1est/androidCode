@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bit.kakkr1.screencontrols.ScreenControls" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/screenInstrument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:text="Which instrument do you want to learn to play?" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:text="Confirm" />
+
+    <RadioGroup
+        android:id="@+id/rdGroup_Instruments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screenInstrument"
+        android:layout_marginTop="76dp"
+        android:layout_toRightOf="@+id/btnConfirm" >
+
+        <RadioButton
+            android:id="@+id/rdAccord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Accordian" />
+
+        <RadioButton
+            android:id="@+id/rdBassoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bassoon" />
+
+        <RadioButton
+            android:id="@+id/rdCello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cello" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtInstrument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rdGroup_Instruments"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
