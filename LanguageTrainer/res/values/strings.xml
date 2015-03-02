@@ -4,5 +4,9 @@
     <string name="app_name">LanguageTrainer</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="der">Der</string>
+    
+    <string name="das">Das</string>
+    <string name="die">Die</string>
 
 </resources>

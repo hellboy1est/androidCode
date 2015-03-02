@@ -30,19 +30,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Das" />
+           
+            android:text="@string/das" />
 
         <RadioButton
             android:id="@+id/rdBtnDer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Der" />
+            android:text="@string/der" />
 
         <RadioButton
             android:id="@+id/rdBtnDie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Die" />
+            android:text="@string/die" />
     </RadioGroup>
 
     <Button
@@ -54,5 +55,23 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="60dp"
         android:text="Next" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnRandom"
+        android:layout_marginBottom="32dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:text="TextView" />
 
 </RelativeLayout>

@@ -1659,7 +1659,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090045;
+        public static final int action_settings=0x7f090047;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
@@ -1711,6 +1711,8 @@ containing a value of this type.
         public static final int split_action_bar=0x7f090004;
         public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000c;
+        public static final int textView1=0x7f090045;
+        public static final int textView2=0x7f090046;
         public static final int title=0x7f090027;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
@@ -1831,6 +1833,9 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0a0004;
         public static final int action_settings=0x7f0a0012;
         public static final int app_name=0x7f0a0010;
+        public static final int das=0x7f0a0014;
+        public static final int der=0x7f0a0013;
+        public static final int die=0x7f0a0015;
         public static final int hello_world=0x7f0a0011;
     }
     public static final class style {
